@@ -9,7 +9,10 @@ call plug#begin()
     Plug 'OmniSharp/omnisharp-vim'
     Plug 'dylanaraps/wal.vim'
     Plug 'vim-airline/vim-airline'
+    Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
+    Plug 'scrooloose/syntastic'
+    Plug 'yggdroot/indentline'
 call plug#end()
 
 " Use the stdio version of OmniSharp-roslyn - this is the default
@@ -19,6 +22,15 @@ let g:OmniSharp_server_use_mono = 1
 
 " Toggle keybind for NerdTree (Ctrl + t)
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+" Syntastic configurations
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""" QULAITY OF LIFE """""""""""""""""""""
