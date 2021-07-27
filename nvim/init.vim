@@ -13,6 +13,7 @@ call plug#begin()
     Plug 'tpope/vim-fugitive'
     Plug 'scrooloose/syntastic'
     Plug 'yggdroot/indentline'
+    Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " Use the stdio version of OmniSharp-roslyn - this is the default
@@ -31,6 +32,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" Set vim-airline theme
+let g:airline_theme='angr'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""" QULAITY OF LIFE """""""""""""""""""""
