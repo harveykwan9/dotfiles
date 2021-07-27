@@ -9,6 +9,7 @@ call plug#begin()
     Plug 'OmniSharp/omnisharp-vim'
     Plug 'dylanaraps/wal.vim'
     Plug 'vim-airline/vim-airline'
+    Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Use the stdio version of OmniSharp-roslyn - this is the default
