@@ -4,10 +4,11 @@
 
 " Vim-Plug plugin stuff
 call plug#begin()
-Plug 'preservim/nerdtree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'OmniSharp/omnisharp-vim'
-Plug 'dylanaraps/wal.vim'
+    Plug 'preservim/nerdtree'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'OmniSharp/omnisharp-vim'
+    Plug 'dylanaraps/wal.vim'
+    Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " Use the stdio version of OmniSharp-roslyn - this is the default
@@ -17,8 +18,6 @@ let g:OmniSharp_server_use_mono = 1
 
 " Toggle keybind for NerdTree (Ctrl + t)
 nnoremap <C-t> :NERDTreeToggle<CR>
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""" QULAITY OF LIFE """""""""""""""""""""
