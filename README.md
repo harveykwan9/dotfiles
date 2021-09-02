@@ -10,4 +10,4 @@ htop, dmenu, neofetch, neovim
 - **Application Launcher:** dmenu
 - **Shell:** fish
 - **Terminal:** kitty
-- **Bar:** polybar (using [adi1090x polybar theme (shades)](https://github.com/adi1090x/polybar-themes#shades)
+- **Bar:** polybar (using [adi1090x polybar theme (shades)](https://github.com/adi1090x/polybar-themes#shades))
