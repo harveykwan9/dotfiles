@@ -1,13 +1,6 @@
-# This file has been auto-generted by i3-config-wizard(1).
-# It will not be overwritten, so edit it as you like.
-#
-# Should you change your keyboard layout some time, delete
-# this file and re-run i3-config-wizard(1).
-#
-
-# i3 config file (v4)
-#
+# Edit of the auto generated i3 config file using i3-gaps 
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
+# ~ fr0da
 
 set $mod Mod4
 
@@ -41,7 +34,7 @@ exec_always --no-startup-id picom -b -f
 
 # Polybar Exec also choose background for pywal
 exec_always --no-startup-id ~/.config/polybar/shades/launch.sh
-exec_always --no-startup-id ~/.config/polybar/shades/scripts/pywal.sh ~/.config/backgrounds/railroad.png
+exec_always --no-startup-id ~/.config/polybar/shades/scripts/pywal.sh ~/.config/backgrounds/possible-one.png
 
 # Show Nitrogen / Restore Nitrogen background
 exec --no-startup-id nitrogen --restore
@@ -69,14 +62,14 @@ bindsym $mod+Return exec kitty
 bindsym $mod+BackSpace kill
 
 # start dmenu (a program launcher)
-# bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id ~/.config/dmenu/dmenu.sh
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+d exec --no-startup-id ~/.config/polybar/shades/scripts/launcher.sh
-bindsym $mod+p exec --no-startup-id ~/.config/polybar/shades/scripts/powermenu.sh
+# bindsym $mod+d exec --no-startup-id ~/.config/polybar/shades/scripts/launcher.sh
+# bindsym $mod+p exec --no-startup-id ~/.config/polybar/shades/scripts/powermenu.sh
 
 # change focus (vim like commands)
 bindsym $mod+h focus left
@@ -214,7 +207,7 @@ gaps horizontal 10
 gaps vertical 10
 
 # Add top bar for polybar
-gaps top 38
+gaps top 30
 
 # i3-window style no window titles
 default_border pixel 1
