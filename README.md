@@ -3,6 +3,13 @@
 ![alt text](https://github.com/harveykwan9/dotfiles/blob/master/screenshots/Screenshot_2021-09-02_13-22-04.png)
 htop, dmenu, neofetch, neovim
 
+---
+
+![alt text](https://github.com/harveykwan9/dotfiles/blob/master/screenshots/mini-greeter.png)
+lightdm, mini-greeter
+
+---
+
 ### Details and applications
 
 - **OS:** Arch Linux
