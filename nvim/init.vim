@@ -2,6 +2,7 @@
 """""""""""""""""""""""" PLUGINS """""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+
 " Vim-Plug plugin stuff
 call plug#begin()
     Plug 'preservim/nerdtree'
